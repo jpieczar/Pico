@@ -16,6 +16,10 @@ int main() {
 		i++;
 	}
 
+	// Initialise all the stdio types.
+	stdio_init_all();
+
+	printf("%u\n", num);
 	while(1)
 	{
 		if (num == 256)
@@ -39,6 +43,7 @@ int main() {
 			hold /= 2;
 			keep++;
 		}
+		printf("%u\n", num);
 		num++;
 		sleep_ms(250);
 
