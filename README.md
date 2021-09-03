@@ -1,11 +1,11 @@
 # Pico
 Raspberry Pi Pico files
 
-##project:
+### project:
 <pre>
 Project template.
 </pre>
-##binary_counter:
+### binary_counter:
 <pre>
 Counts in binary from 1 - 255.
 </pre>
